@@ -16,4 +16,4 @@ kubectl apply -f deploy/secret.yaml --namespace hse-coursework-health
 
 helm upgrade --install airflow apache-airflow/airflow -n hse-coursework-health -f deploy/values.yaml --debug --timeout 10m02s
 
-echo "🎉 Скрипт завершён"
+echo "Скрипт завершён"
